@@ -5,7 +5,7 @@ contract Ballot{
     //All code goes here
 
     struct Proposal {
-        string name;
+        bytes32 name; //name of each proposal
         uint voteCount; //number of accumulated votes
     }
     
