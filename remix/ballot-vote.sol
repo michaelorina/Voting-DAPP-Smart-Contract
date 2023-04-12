@@ -12,11 +12,11 @@ contract Ballot{
     }
 
     //voters: voted = bool, access to vote = uint, vote index = uint
-    struct Voters {
+    struct Voter {
         uint vote;
         bool voted;
         uint wheight;
     }
     
-
+    Proposal [] public proposals;
 }
