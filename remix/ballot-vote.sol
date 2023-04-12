@@ -19,4 +19,7 @@ contract Ballot{
     }
     
     Proposal [] public proposals;
+
+    //mapping allows us to create and store values with keys and indexes
+    mapping(address => Voter) public voters; //voters get address as key and Voter for value
 }
